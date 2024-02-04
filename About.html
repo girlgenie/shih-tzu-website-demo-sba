@@ -3,11 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Website Demo</title>
+    <title>Shih Tzu Website Demo</title>
+    <!-- bootstrap code starts -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index_shihtzuworld.css">
+    
+    <!-- bootstrap code ends -->
+    <!-- ----- -->
+    <style>
+      /* internal css starts */
+      body {background-color: powderblue;}
+      .Hero-text { 
+        text-align: center;
+            position: auto;
+            font-size: 18px;
+            top: 50px;
+            left: 27%;
+            color: green;}        
+           
+
+            .Hero-image {display: block;}
+      </style>
+      <!-- ------internal css ends--------->
 </head>
 <body>
+  <!-- navigation bar code starts -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Shih Tzu World</a>
@@ -17,10 +38,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                <a class="nav-link" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class= "nav-link" href="./About.html">About</a>
+                <a class="nav-link active" aria-current="page" href="./About.html">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./History.html">History</a>
@@ -49,6 +70,29 @@
             </form> -->
           </div>
         </div>
+      <!-- navigation bar code ends -->
       </nav>
+      <!-- hero image code starts -->
+      <div class="Hero-image">
+        <div class="Hero-text">
+          <h1>Shih Tzu World</h1>
+          <h4>The Wonderful World of Shih Tzu </h4>
+          <img src="https://previews.123rf.com/images/isselee/isselee1211/isselee121100003/16485916-group-of-shih-tzu-and-maltese-puppy-sitting-and-looking-at-camera-against-white-background.jpg" alt="four Shih tzu dogs in a row">
+        </div>
+        <!-- hero image code ends  -->
+      </div>
+    <section class="main-content">
+      <div class="row">
+        <div class="home-page-text">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam voluptatibus voluptas id, ab vero sunt repellendus cum repudiandae, labore optio quibusdam et quaerat quasi non. Molestiae esse repellat alias praesentium?</p>
+        </div>
+        <div class="col-4">col-4</div>
+      </div>
+    </div>
+      <!-- <div class="home-page-text">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam voluptatibus voluptas id, ab vero sunt repellendus cum repudiandae, labore optio quibusdam et quaerat quasi non. Molestiae esse repellat alias praesentium?</p> -->
+        <button>About</button>
+      </div>
+    </section>
 </body>
 </html>
